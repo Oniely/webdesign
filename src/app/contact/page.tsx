@@ -33,7 +33,7 @@ const ContactUsPage = () => {
 				<div className="col-span-2" id="contact-us">
 					<form action="" className="w-full flex flex-col gap-8">
 						<div className="flex flex-col">
-							<label>What's your name?</label>
+							<label>What&apos;s your name?</label>
 							<input
 								type="text"
 								placeholder="Add your full name"
@@ -41,7 +41,7 @@ const ContactUsPage = () => {
 							/>
 						</div>
 						<div className="flex flex-col">
-							<label>What's your email address?</label>
+							<label>What&apos;s your email address?</label>
 							<input
 								type="text"
 								placeholder="Add your email address"
@@ -49,7 +49,7 @@ const ContactUsPage = () => {
 							/>
 						</div>
 						<div className="flex flex-col">
-							<label>What's your phone number?</label>
+							<label>What&apos;s your phone number?</label>
 							<input
 								type="text"
 								placeholder="Add your phone number"
@@ -57,7 +57,7 @@ const ContactUsPage = () => {
 							/>
 						</div>
 						<div className="flex flex-col">
-							<label>What's your Inquiry?</label>
+							<label>What&apos;s your Inquiry?</label>
 							<textarea
 								className="px-2 py-3 border border-foreground w-full md:w-[75%]"
 								placeholder="Add inquiry here..."

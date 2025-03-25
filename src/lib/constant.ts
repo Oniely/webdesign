@@ -53,7 +53,7 @@ export const FOOTER_LINKS: FooterLinks[] = [
 				url: "/",
 			},
 			{
-				label: "FAQ's",
+				label: "FAQs",
 				url: "/",
 			},
 			{
