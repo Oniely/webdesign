@@ -13,7 +13,7 @@
 	--color-primary: var(--primary);
 	--color-secondary: var(--secondary);
 	--font-sans: var(--font-poppins);
-	--font-mono: var(--font-geist-mono);
+	--font-old_standard: var(--font-old_standard);
 }
 
 body {

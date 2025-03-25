@@ -22,87 +22,63 @@ export const FOOTER_LINKS: FooterLinks[] = [
 				label: "Contact Us",
 				url: "/",
 			},
+		],
+	},
+	{
+		header: "Resources",
+		links: [
 			{
-				label: "Contact Us",
+				label: "Blog",
+				url: "#",
+			},
+			{
+				label: "Newsletter",
+				url: "#",
+			},
+			{
+				label: "Events",
+				url: "#",
+			},
+			{
+				label: "Support",
+				url: "#",
+			},
+		],
+	},
+	{
+		header: "Support",
+		links: [
+			{
+				label: "Contact",
 				url: "/",
 			},
 			{
-				label: "Contact Us",
+				label: "FAQ's",
+				url: "/",
+			},
+			{
+				label: "Policies",
 				url: "/",
 			},
 		],
 	},
 	{
-		header: "Navigations",
+		header: "Socials",
 		links: [
 			{
-				label: "Home",
+				label: "LinkedIn",
 				url: "/",
 			},
 			{
-				label: "About",
+				label: "Instagram",
 				url: "/",
 			},
 			{
-				label: "Contact Us",
+				label: "YouTube",
 				url: "/",
 			},
 			{
-				label: "Contact Us",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-		],
-	},
-	{
-		header: "Navigations",
-		links: [
-			{
-				label: "Home",
-				url: "/",
-			},
-			{
-				label: "About",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-		],
-	},
-	{
-		header: "Navigations",
-		links: [
-			{
-				label: "Home",
-				url: "/",
-			},
-			{
-				label: "About",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
-				url: "/",
-			},
-			{
-				label: "Contact Us",
+				label: "Facebook",
 				url: "/",
 			},
 		],

@@ -3,26 +3,45 @@ import Link from "next/link";
 
 const Footer = () => {
 	return (
-		<footer className="h-full w-full max-container py-14 space-y-10">
-			<div className="max-w-7xl mx-auto">
-				<h1 className="text-7xl w-full">
+		<footer className="h-full w-full max-container pb-8 pt-14 space-y-10 border-t border-neutral-400">
+			<div className="max-w-7xl mx-auto md:px-6 px-0">
+				<h1 className="text-[4.5vw] w-full leading-none">
 					Sign up to our Newsletter to Stay Up-to-date about
 					Responsible Consumption & Production of the World
 				</h1>
-				<div></div>
+				<div className="flex items-center justify-between mt-6">
+					<p className="">Be updated and be ready:</p>
+					<div className="flex items-center gap-2">
+						<p>Send us your Email:</p>
+						<a
+							href="mailto:betterfuture@gmail.com"
+							className="bg-primary text-background py-2 px-14"
+						>
+							Subscribe
+						</a>
+					</div>
+				</div>
 			</div>
 			<div className="h-[1px] w-full bg-neutral-400" />
-			<div className="flex items-center justify-start md:justify-between px-10 flex-wrap gap-10">
+			<div className="flex items-start justify-start md:justify-between px-10 flex-wrap gap-10">
 				{FOOTER_LINKS.map((item, i) => (
 					<FooterColumn links={item} key={i} />
 				))}
 			</div>
 			<div className="h-[1px] w-full bg-neutral-400" />
 			<div className="flex items-center justify-start md:justify-between px-10 flex-wrap gap-4">
-				<p className="w-[15rem]">&copy; 2025 Better Future, Inc.</p>
-				<p className="w-[15rem]">Privacy Policy</p>
-				<p className="w-[15rem]">Terms of Use</p>
-				<p className="w-[15rem]">Careers</p>
+				<a href="#" className="w-[15rem]">
+					&copy; 2025 Better Future, Inc.
+				</a>
+				<a href="#" className="w-[15rem]">
+					Privacy Policy
+				</a>
+				<a href="#" className="w-[15rem]">
+					Terms of Use
+				</a>
+				<a href="#" className="w-[15rem]">
+					Careers
+				</a>
 			</div>
 		</footer>
 	);
