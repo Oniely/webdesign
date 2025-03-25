@@ -22,7 +22,12 @@ const ContactUsPage = () => {
 							animationDuration: "10s",
 						}}
 					>
-						<Image src="/images/circle.png" alt="circle" fill />
+						<Image
+							src="/images/circle.png"
+							alt="circle"
+							fill
+							priority
+						/>
 					</div>
 					<div className="absolute inset-0 flex items-center justify-center">
 						<MoveDownRight className="size-10" />
