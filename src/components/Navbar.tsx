@@ -14,14 +14,16 @@ const Navbar = () => {
 					</a>
 				</div>
 				<div className="absolute left-1/2 tranform -translate-x-1/2">
-					<div className="relative w-[8rem] h-[4rem]">
-						<Image
-							src="/images/logo.png"
-							alt="logo"
-							fill
-							className="object-cover"
-						/>
-					</div>
+					<a href="/">
+						<div className="relative w-[8rem] h-[4rem]">
+							<Image
+								src="/images/logo.png"
+								alt="logo"
+								fill
+								className="object-cover"
+							/>
+						</div>
+					</a>
 				</div>
 				<div>
 					<NavMenu />
