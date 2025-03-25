@@ -1,0 +1,4 @@
+Navbar:
+1. default burger
+2. 3 way head
+3. fixed
