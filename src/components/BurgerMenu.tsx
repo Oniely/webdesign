@@ -17,7 +17,7 @@ const BurgerMenu = () => {
 				<Menu className="size-8" />
 			</button>
 			{showMenu && (
-				<nav className="fixed top-0 right-0 bottom-0 bg-secondary z-0 h-dvh w-[40rem]">
+				<nav className="fixed top-0 bottom-0 right-0 bg-secondary h-dvh w-screen md:w-[40rem]">
 					<ul className="px-20 py-40 text-7xl flex flex-col gap-12 relative">
 						<li>
 							<Link href={"/"}>Home</Link>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Hero = () => {
 	return (
 		<section className="relative h-dvh flex items-center justify-start padding-container hero-bg">

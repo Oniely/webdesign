@@ -2,8 +2,8 @@ import BurgerMenu from "./BurgerMenu";
 
 const Navbar = () => {
 	return (
-		<div className="w-full padding-container max-container fixed top-0 left-1/2 transform -translate-x-1/2 z-50">
-			<div className="w-full flex items-center justify-between h-[5rem]">
+		<div className="w-full fixed top-0 left-1/2 transform -translate-x-1/2 z-50">
+			<div className="w-full flex items-center justify-between h-[5rem] padding-container max-container ">
 				<div>
 					<button className="bg-primary p-3 px-8 text-white">
 						Contact
