@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 :root {
 	--background: #f0f2f3;
 	--foreground: #303030;
@@ -13,7 +12,7 @@
 	--color-primary: var(--primary);
 	--color-secondary: var(--secondary);
 	--font-sans: var(--font-poppins);
-	--font-mono: var(--font-geist-mono);
+	--font-old_standard: var(--font-old_standard);
 }
 
 body {
@@ -26,7 +25,12 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-
+.bento-bg {
+	background-image: url("/images/image4.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 .max-container {
 	@apply mx-auto max-w-[1700px];
 }
