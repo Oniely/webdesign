@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.2;
+    font-family: 'TWKLausannePan-350', 'poppins';
+}
+
+.about-container {
+    width: 100vw;
+    height: 500px;
+}
+
+.ctn-1 {
+    background-image: url(https://cdn.prod.website-files.com/6656062834d1bf3450b8d0de/665a520b821800524682ac13_About%20Us.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-title {
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 6.469rem;
+    margin-bottom: 2.235rem;
+}
+
+.ttxt-1 {
+    max-width: 850px;
+    color: #eae7e7;
+}
+
+.ttxt-1 span {
+    color: rgb(6, 166, 113);
+}
+
+.about-subtitle {
+    font-size: 1.424rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.125rem;
+}
+
+.stxt-1 {
+    color: #eae7e7;
+    max-width: 830px;
+}
+
+.stxt-1 span {
+    color: rgb(158, 166, 6);
+}
+
+.ctn-2 {
+    background-color: #ebe8e8;
+    margin-top: 0;
+    height: 600px;
+}
+
+.ttxt-2 {
+    font-size: 27px;
+    margin-bottom: -.165rem;
+    color: rgb(48, 47, 47);
+}
+
+.ttxt-2 img {
+    margin-top: 1.125rem;
+    margin-bottom: 1.125rem;
+}
+
+.stxt-2 {
+    line-height: 1.4;
+    font-size: 1.223rem;
+    max-width: 680px;
+    color: rgb(48, 47, 47);
+}
+
+.stxt-2 span {
+    color: #b5552b;
+}
+
+.purpose-bx {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    text-decoration: none;
+}
+
+.purpose-bxs {
+    display: flex;
+}
+
+.bx-gap {
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.cnt-bxs {
+    display: flex;
+    text-align: center;
+    background-color: #3a3a3a;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 25px;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+}
+
+.cnt-bxs h1 {
+    font-size: 2.23rem;
+    margin-bottom: .85rem;
+    color: #fff;
+}
+
+.cnt-bxs p {
+    color: #fff;
+    font-size: 20px;
+    max-width: 350px;
+}
+
+.ctn-3 {
+    margin-bottom: 2rem;
+}
+
+.stxt-3 {
+    line-height: 1.6;
+    font-size: 1.223rem;
+    max-width: 950px;
+    color: rgb(48, 47, 47);
+}
+
+.cnt-bx {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 25px;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left: 1.125rem;
+    margin-right: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.second-contents {
+    display: flex;
+    width: 100%;
+}
+
+.sub-text {
+    flex: 1;
+    padding: 4% 8%;
+}
+
+.second-contents .sub-text h2 {
+    font-weight: 200;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+} 
+
+.second-contents .sub-text p {
+    line-height: 20px;
+}
+
+.third-container {
+    display: flex;
+    width: 90%;
+    margin: 20px 40px;
+}
+
+.third-container .third-content {
+    display: flex;
+    background-color: #cebaac;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.third-container .third-content .service.two{
+    background-color: #27262a;
+}
+
+.service.one{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.service.two {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.service.two h3 {
+    margin-bottom: 20px;
+}
+.service.one h2 {
+    margin-bottom: 20px;
+}
+
+.service {
+    display: flex;
+    flex: 2;
+    padding: 2% 3%;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.service.three {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.service.three h3{
+    margin-bottom: 20px;
+}
+
+.bx-gap {
+    display: flex;
+}
+
+@media screen and (max-width: 668px){
+    .main-container{
+        height: 300px;
+    }
+    .main-container .main-title{
+        left: 20px;
+        font-size: 2rem;
+        top: 35px;
+        text-align: center;
+    }
+    .second-contents{
+        flex-direction: column;
+    }
+    .third-container .third-content {
+        flex-direction: column;
+    }
+    .bx-gap {
+        display: flex;
+        flex-direction: row;
+    }
+}
