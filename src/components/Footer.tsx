@@ -4,12 +4,12 @@ import Link from "next/link";
 const Footer = () => {
 	return (
 		<footer className="h-full w-full max-container pb-8 pt-14 space-y-10 border-t border-neutral-400">
-			<div className="max-w-7xl mx-auto md:px-6 px-0">
-				<h1 className="text-[4.5vw] w-full leading-none">
+			<div className="max-w-7xl mx-auto px-6">
+				<h1 className="text-xl md:text-[4.5vw] w-full leading-none text-center">
 					Sign up to our Newsletter to Stay Up-to-date about
 					Responsible Consumption & Production of the World
 				</h1>
-				<div className="flex items-center justify-between mt-6">
+				<div className="flex flex-col md:flex-row items-center justify-between mt-6 gap-4">
 					<p className="">Be updated and be ready:</p>
 					<div className="flex items-center gap-2">
 						<p>Send us your Email:</p>
