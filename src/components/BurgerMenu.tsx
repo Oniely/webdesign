@@ -13,7 +13,10 @@ const BurgerMenu = () => {
 
 	return (
 		<div>
-			<button onClick={handleClick} className="cursor-pointer z-50">
+			<button
+				onClick={handleClick}
+				className="cursor-pointer z-50 bg-primary p-2 rounded-full text-background"
+			>
 				<Menu className="size-8" />
 			</button>
 			{showMenu && (
